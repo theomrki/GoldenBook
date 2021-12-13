@@ -47,8 +47,7 @@ require 'elements/header.php';
             <?php endif ?>
         </div>
         <div class="form-group">
-            <textarea name="message" placeholder="Votre message" class="form-control" value="<?= isset($errors['message']) ? 'is-invalid' : '' ?>">
-            </textarea>
+            <input value="<?= htmlentities($_POST['message'] ?? '') ?>" type="text" name="message" placeholder="Votre message" class="form-control" <?= isset($errors['message']) ? 'is-invalid' : '' ?>>
             <?php if (isset($errors['message'])) : ?>
                 <div class="invalid-feedback">
                     <?= $errors['message'] ?>
