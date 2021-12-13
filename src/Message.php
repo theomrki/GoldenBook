@@ -1,4 +1,10 @@
 <?php
+
+namespace App;
+
+use DateTimeZone;
+use DateTime;
+
 class Message
 {
     const LIMIT_USERNAME = 3;

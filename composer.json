@@ -2,7 +2,7 @@
     "name": "theo/golden-book-composer",
     "autoload": {
         "psr-4": {
-            "Theo\\GoldenBookComposer\\": "src/"
+            "App\\": "src/"
         }
     },
     "authors": [
@@ -11,5 +11,7 @@
             "email": "mouaraki.dev@gmail.com"
         }
     ],
-    "require": {}
+    "require": {
+        "symfony/var-dumper": "^6.0"
+    }
 }
