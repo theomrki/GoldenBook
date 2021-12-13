@@ -1,7 +1,7 @@
 <?php
 
-require_once 'class/Message.php';
-require_once 'class/GuestBook.php';
+require_once 'src/Message.php';
+require_once 'src/GuestBook.php';
 $errors = null;
 $success = false;
 $guestbook = new GuestBook(__DIR__ . DIRECTORY_SEPARATOR . 'data' . DIRECTORY_SEPARATOR . 'message');
