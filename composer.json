@@ -1,0 +1,15 @@
+{
+    "name": "theo/golden-book-composer",
+    "autoload": {
+        "psr-4": {
+            "Theo\\GoldenBookComposer\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Theo Mouaraki",
+            "email": "mouaraki.dev@gmail.com"
+        }
+    ],
+    "require": {}
+}
